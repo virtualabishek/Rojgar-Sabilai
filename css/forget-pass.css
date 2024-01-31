@@ -21,7 +21,7 @@ body {
 
 /* Main CSS */
 
-/* For Sign-u  */
+/* For Forget Password.  */
 
 
 .wrapper{
@@ -32,6 +32,10 @@ body {
     background-size: contain;
     background-attachment: fixed;
     min-height: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .wrapper .logo img{
     max-width: 50%;

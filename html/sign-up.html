@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rojgar Sabailai: Sign Up form</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/sign.css">
+    <link rel="stylesheet" href="../css/sign.css">
 </head>
 <body>
     <section class="wrapper">
         <div class="container">
             <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 text-center">
                 <div class="logo">
-                    <img src="images/login_sign/logo.png" class="img-fluid"  alt="Logo">
+                    <img src="../images/login_sign/logo.png" class="img-fluid"  alt="Logo">
                 </div>
                 <form class = "rounded bg-white shadow p-5"action="">
                     <h3 class="text-dark fw-bolder fs-4 mb-2">Create an Account</h3>
@@ -23,15 +23,31 @@
 
                     <div class="text-center text-muted text-uppercase mb-2">or</div>
                     <a href="#" class="btn btn-light login_with w-100 mb-4">
-                        <img src="images/login_sign/google-icon.svg" class="img-fluid me-3" alt="Continue with Google">Sign in with Google</a>
+                        <img src="../images/login_sign/google-icon.svg" class="img-fluid me-3" alt="Continue with Google">Sign in with Google</a>
                   </a>
                   <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingFirstName" placeholder="name@example.com">
+                    <input type="text" class="form-control" id="floatingFirstName" placeholder="First Name">
                     <label for="floatingFirstName">First Name</label>
                   </div>
                   <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingLastName" placeholder="name@example.com">
+                    <input type="text" class="form-control" id="floatingLastName" placeholder="Last Name">
                     <label for="floatingLastName">Last Name</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="floatingAge" placeholder="Age" min="18">
+                    <label for="floatingAge" >Age</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingCity" placeholder="City">
+                    <label for="floatingCity">City</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingAddress" placeholder="Address">
+                    <label for="floatingAddress" >Address</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingDistrict" placeholder="District">
+                    <label for="floatingDistrict">District</label>
                   </div>
                     <div class="form-floating mb-3">
                         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
